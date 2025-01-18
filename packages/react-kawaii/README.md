@@ -5,7 +5,6 @@ React Kawaii is an open source library of cute SVG illustrations. Perfect if you
 [![Version](https://img.shields.io/npm/v/react-kawaii.svg?style=flat-square)](https://www.npmjs.com/package/react-kawaii)
 ![npm](https://img.shields.io/npm/dt/react-kawaii.svg)
 
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-logo@2x.png"alt="React Kawaii Logo">
 </p>
@@ -39,7 +38,6 @@ const Example = () => <Planet size={200} mood="blissful" color="#FDA7DC" />;
 <p align="center">
   <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-example.gif?raw=true" alt="React Kawaii Example">
 </p>
-
 
 ## Development
 

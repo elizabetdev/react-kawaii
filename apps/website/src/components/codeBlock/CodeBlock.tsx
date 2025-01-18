@@ -1,6 +1,5 @@
 import { IconButton } from '@radix-ui/themes';
 import { useTheme } from 'next-themes';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { TbCopy } from 'react-icons/tb';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 import { nightOwl, oneLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
@@ -16,10 +15,8 @@ export const CodeBlock = ({ code, language = 'jsx' }: CodeBlockProps) => {
   const codeblockTheme = theme === 'dark' ? nightOwl : oneLight;
   return (
     <div className="codeBlock">
-      <IconButton className="codeBlockCopyButton">
-        <CopyToClipboard text={code}>
-          <TbCopy />
-        </CopyToClipboard>
+      <IconButton onClick={() => navigator.clipboard.writeText(code)} className="codeBlockCopyButton">
+        <TbCopy />
       </IconButton>
 
       <SyntaxHighlighter language={language} style={codeblockTheme} wrapLines={true}>

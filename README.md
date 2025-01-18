@@ -11,7 +11,6 @@ React Kawaii is an open source library of cute SVG illustrations. Perfect if you
   <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-logo@2x.png"alt="React Kawaii Logo">
 </p>
 
-
 ## Website
 
 The website for React Kawaii is located in the `apps/website` directory. It serves as a documentation hub and may also include demos, tutorials, and other resources related to the project.
@@ -47,7 +46,7 @@ To use the `react-kawaii` package in your projects:
 
    const MyComponent = () => {
      return <Planet size={200} mood="blissful" color="#FDA7DC" />;
-   }
+   };
    ```
 
 ## Example
@@ -55,7 +54,6 @@ To use the `react-kawaii` package in your projects:
 <p align="center">
   <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-example.gif?raw=true" alt="React Kawaii Example">
 </p>
-
 
 For detailed documentation and usage examples, visit the [React Kawaii documentation website](https://react-kawaii.vercel.app).
 
