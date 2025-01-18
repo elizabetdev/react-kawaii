@@ -1,37 +1,33 @@
-import { FunctionComponent, SVGProps } from 'react';
+import { SVGProps, FunctionComponent } from 'react';
 
-declare const MOODS: readonly ['sad', 'shocked', 'happy', 'blissful', 'lovestruck', 'excited', 'ko'];
+declare const MOODS: readonly ["sad", "shocked", "happy", "blissful", "lovestruck", "excited", "ko"];
 declare const DEFAULT_PROPS: {
-  readonly size: 240;
-  readonly mood: 'blissful';
-  readonly color: '#FFD882';
+    readonly size: 240;
+    readonly mood: "blissful";
+    readonly color: "#FFD882";
 };
-declare const PROPS_DATA: (
-  | {
-      name: string;
-      type: string;
-      description: string;
-      default: 240;
-    }
-  | {
-      name: string;
-      type: string;
-      description: string;
-      default: '#FFD882';
-    }
-  | {
-      name: string;
-      type: string;
-      description: string;
-      default: 'blissful';
-    }
-)[];
+declare const PROPS_DATA: ({
+    name: string;
+    type: string;
+    description: string;
+    default: 240;
+} | {
+    name: string;
+    type: string;
+    description: string;
+    default: "#FFD882";
+} | {
+    name: string;
+    type: string;
+    description: string;
+    default: "blissful";
+})[];
 
 type KawaiiMood = (typeof MOODS)[number];
 type KawaiiProps = SVGProps<SVGSVGElement> & {
-  size?: number | string;
-  color?: string;
-  mood?: KawaiiMood;
+    size?: number | string;
+    color?: string;
+    mood?: KawaiiMood;
 };
 
 declare const Astronaut: FunctionComponent<KawaiiProps>;
@@ -66,25 +62,4 @@ declare const Planet: FunctionComponent<KawaiiProps>;
 
 declare const SpeechBubble: FunctionComponent<KawaiiProps>;
 
-export {
-  Astronaut,
-  Backpack,
-  Browser,
-  Cat,
-  Chocolate,
-  CreditCard,
-  Cyborg,
-  DEFAULT_PROPS,
-  File,
-  Folder,
-  Ghost,
-  HumanCat,
-  HumanDinosaur,
-  IceCream,
-  MOODS,
-  Mug,
-  Planet,
-  PROPS_DATA,
-  SpeechBubble,
-  type KawaiiProps
-};
+export { Astronaut, Backpack, Browser, Cat, Chocolate, CreditCard, Cyborg, DEFAULT_PROPS, File, Folder, Ghost, HumanCat, HumanDinosaur, IceCream, type KawaiiProps, MOODS, Mug, PROPS_DATA, Planet, SpeechBubble };
