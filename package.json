@@ -24,13 +24,13 @@
   "license": "ISC",
   "devDependencies": {
     "@types/prettier": "^2.7.3",
-    "husky": "^9.0.11",
-    "lint-staged": "^15.2.2",
-    "prettier": "=2.8.8",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.1",
+    "prettier": "^2.8.8",
     "prettier-plugin-organize-imports": "^3.2.4",
-    "tsx": "^4.9.3",
-    "turbo": "^1.13.3",
-    "typescript": "^5.4.5"
+    "tsx": "^4.19.2",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.3"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
@@ -51,6 +51,7 @@
     }
   },
   "dependencies": {
-    "@changesets/cli": "^2.27.1"
-  }
+    "@changesets/cli": "^2.27.11"
+  },
+  "packageManager": "pnpm@9.15.4"
 }
