@@ -1,5 +1,11 @@
 # react-kawaii
 
+## 1.6.0
+
+### Minor Changes
+
+- 2c1d199: Add compatibility with previous react versions
+
 ## 1.5.0
 
 ### Minor Changes
