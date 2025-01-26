@@ -7,6 +7,7 @@ export type KawaiiProps = SVGProps<SVGSVGElement> & {
   size?: number | string;
   color?: string;
   mood?: KawaiiMood;
+  uniqueId?: string;
 };
 
 export type KawaiiFaceProps = {

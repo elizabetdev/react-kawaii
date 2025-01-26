@@ -1,6 +1,6 @@
 import { FunctionComponent } from 'react';
-import { KawaiiFaceProps } from '../../../types';
-import paths from './paths';
+import { KawaiiFaceProps } from '../../types';
+import { paths } from './paths';
 
 export const Face: FunctionComponent<KawaiiFaceProps> = ({ mood = 'blissful', uniqueId, transform, ...rest }) => (
   <g id="kawaii-face" transform={transform} {...rest}>

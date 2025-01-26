@@ -28,6 +28,7 @@ type KawaiiProps = SVGProps<SVGSVGElement> & {
     size?: number | string;
     color?: string;
     mood?: KawaiiMood;
+    uniqueId?: string;
 };
 
 declare const Astronaut: FunctionComponent<KawaiiProps>;

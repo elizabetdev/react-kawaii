@@ -2,12 +2,13 @@ import { FunctionComponent } from 'react';
 import { DEFAULT_PROPS } from '../constants';
 import { KawaiiProps } from '../types';
 import { getFaceScale } from '../utils/getFaceScale';
-import { Face } from './common/face';
+import { Face } from './common/Face';
 
 export const Astronaut: FunctionComponent<KawaiiProps> = ({
   size = 240,
   mood = 'blissful',
   color = '#A6E191',
+  uniqueId,
   ...props
 } = DEFAULT_PROPS) => {
   const figmaFaceScale = getFaceScale(40.5);
@@ -224,7 +225,7 @@ export const Astronaut: FunctionComponent<KawaiiProps> = ({
         />
       </mask>
 
-      <Face mood={mood} transform={`translate(${figmaFaceXYPosition}) scale(${figmaFaceScale})`} />
+      <Face mood={mood} transform={`translate(${figmaFaceXYPosition}) scale(${figmaFaceScale})`} uniqueId={uniqueId} />
     </svg>
   );
 };

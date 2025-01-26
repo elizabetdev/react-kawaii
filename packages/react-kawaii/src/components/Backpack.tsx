@@ -2,12 +2,13 @@ import { FunctionComponent } from 'react';
 import { DEFAULT_PROPS } from '../constants';
 import { KawaiiProps } from '../types';
 import { getFaceScale } from '../utils/getFaceScale';
-import { Face } from './common/face';
+import { Face } from './common/Face';
 
 export const Backpack: FunctionComponent<KawaiiProps> = ({
   size = 240,
   mood = 'blissful',
   color = '#A6E191',
+  uniqueId,
   ...props
 } = DEFAULT_PROPS) => {
   const figmaFaceScale = getFaceScale(50.73);
@@ -104,7 +105,7 @@ export const Backpack: FunctionComponent<KawaiiProps> = ({
       <path fill="#121212" d="M138.319 170.914H157.9v12.46h-19.581z" opacity={0.298} />
       <path fill="#fff" d="M139.209 171.804h17.801v10.68h-17.801z" />
 
-      <Face mood={mood} transform={`translate(${figmaFaceXYPosition}) scale(${figmaFaceScale})`} />
+      <Face mood={mood} transform={`translate(${figmaFaceXYPosition}) scale(${figmaFaceScale})`} uniqueId={uniqueId} />
     </svg>
   );
 };
