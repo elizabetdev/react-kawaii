@@ -63,4 +63,4 @@ Contributions to React Kawaii are welcome! Feel free to open issues or pull requ
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
