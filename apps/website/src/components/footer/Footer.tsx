@@ -12,13 +12,13 @@ export const Footer = () => {
         <Box py="4" mt="auto">
           <p>
             Made by Miuki Miu |{' '}
-            <NextLink href="https://x.com/miuki_miu" target="_blank">
+            <NextLink href="https://x.com/elizabet_dev" target="_blank">
               <FaXTwitter />
             </NextLink>{' '}
-            <NextLink href="https://www.instagram.com/miukimiu" target="_blank">
+            <NextLink href="https://www.instagram.com/elizabetdev" target="_blank">
               <FaInstagram />
             </NextLink>{' '}
-            <NextLink href="https://miukimiu.com/" target="_blank">
+            <NextLink href="https://elizabet.dev/" target="_blank">
               <TbWorldWww />
             </NextLink>
           </p>

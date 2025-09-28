@@ -6,7 +6,7 @@ React Kawaii is an open source library of cute SVG illustrations. Perfect if you
 ![npm](https://img.shields.io/npm/dt/react-kawaii.svg)
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-logo@2x.png"alt="React Kawaii Logo">
+  <img src="https://raw.githubusercontent.com/elizabetdev/react-kawaii/main/images/react-kawaii-logo@2x.png"alt="React Kawaii Logo">
 </p>
 
 ## Install
@@ -36,7 +36,7 @@ const Example = () => <Planet size={200} mood="blissful" color="#FDA7DC" />;
 ## Example
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-example.gif?raw=true" alt="React Kawaii Example">
+  <img src="https://raw.githubusercontent.com/elizabetdev/react-kawaii/main/images/react-kawaii-example.gif?raw=true" alt="React Kawaii Example">
 </p>
 
 ## Development
@@ -46,7 +46,7 @@ Interested in contributing to React Kawaii? Follow these steps to get started:
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/miukimiu/react-kawaii.git
+   git clone https://github.com/elizabetdev/react-kawaii.git
    ```
 
 2. Install dependencies:
@@ -79,4 +79,4 @@ View the list of components and their properties [here](https://react-kawaii.ver
 
 ## Contributors
 
-A big thank you to all the contributors who have helped improve React Kawaii! See the [list of contributors](https://github.com/miukimiu/react-kawaii/graphs/contributors).
+A big thank you to all the contributors who have helped improve React Kawaii! See the [list of contributors](https://github.com/elizabetdev/react-kawaii/graphs/contributors).

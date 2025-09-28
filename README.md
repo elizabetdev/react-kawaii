@@ -8,7 +8,7 @@ Welcome to **React Kawaii**! This repository contains both the website and the R
 React Kawaii is an open source library of cute SVG illustrations. Perfect if you want to give some cuteness to your React App.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-logo@2x.png"alt="React Kawaii Logo">
+  <img src="https://raw.githubusercontent.com/elizabetdev/react-kawaii/main/images/react-kawaii-logo@2x.png"alt="React Kawaii Logo">
 </p>
 
 ## Website
@@ -52,7 +52,7 @@ To use the `react-kawaii` package in your projects:
 ## Example
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/miukimiu/react-kawaii/main/images/react-kawaii-example.gif?raw=true" alt="React Kawaii Example">
+  <img src="https://raw.githubusercontent.com/elizabetdev/react-kawaii/main/images/react-kawaii-example.gif?raw=true" alt="React Kawaii Example">
 </p>
 
 For detailed documentation and usage examples, visit the [React Kawaii documentation website](https://react-kawaii.vercel.app).

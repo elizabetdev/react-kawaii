@@ -13,7 +13,7 @@ type GitHubRepo = {
 
 const fetchGitHubRepoStars = async (): Promise<number | undefined> => {
   try {
-    const response = await fetch('https://api.github.com/repos/miukimiu/react-kawaii');
+    const response = await fetch('https://api.github.com/repos/elizabetdev/react-kawaii');
     if (!response.ok) {
       throw new Error(`Error fetching repository: ${response.statusText}`);
     }
@@ -36,7 +36,7 @@ const formatNumber = (num: number) => {
 export const ButtonGitHubStars: FC = async () => {
   const githubStars = await fetchGitHubRepoStars();
   return (
-    <Link href="https://github.com/miukimiu/react-kawaii" color="gray" highContrast>
+    <Link href="https://github.com/elizabetdev/react-kawaii" color="gray" highContrast>
       <span className="buttonGitHubStars">
         <GitHubLogoIcon />
 

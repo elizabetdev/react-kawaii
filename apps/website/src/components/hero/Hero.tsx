@@ -18,7 +18,7 @@ export const Hero = () => {
           </Text>
 
           <NextLink
-            href="https://github.com/miukimiu/react-kawaii/blob/main/packages/react-kawaii/README.md"
+            href="https://github.com/elizabetdev/react-kawaii/blob/main/packages/react-kawaii/README.md"
             className="header__link"
             target="_blank"
           >

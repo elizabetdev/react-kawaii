@@ -13,7 +13,7 @@
     }
   },
   "version": "1.6.0",
-  "homepage": "https://github.com/miukimiu/react-kawaii#readme",
+  "homepage": "https://github.com/elizabetdev/react-kawaii#readme",
   "license": "MIT",
   "scripts": {
     "lint": "eslint ./src",
