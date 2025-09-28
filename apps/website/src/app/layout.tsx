@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'React Kawaii is an open source library of cute SVG illustrations. Perfect if you want to give some cuteness to your React App.',
   twitter: {
     card: 'summary_large_image',
-    creator: '@miuki_miu'
+    creator: '@elizabet_dev'
   },
   openGraph: {
     type: 'website',
