@@ -11,7 +11,11 @@ export const Footer = () => {
       <Container size="4">
         <Box py="4" mt="auto">
           <p>
-            Made by Miuki Miu |{' '}
+            Created by{' '}
+            <NextLink href="https://elizabet.dev/" target="_blank">
+              Elizabet.dev
+            </NextLink>{' '}
+            |{' '}
             <NextLink href="https://x.com/elizabet_dev" target="_blank">
               <FaXTwitter />
             </NextLink>{' '}
