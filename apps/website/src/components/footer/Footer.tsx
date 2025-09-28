@@ -1,7 +1,7 @@
 import { Box, Container } from '@radix-ui/themes';
 import NextLink from 'next/link';
 import React from 'react';
-import { FaInstagram, FaXTwitter } from 'react-icons/fa6';
+import { FaBluesky, FaInstagram, FaXTwitter } from 'react-icons/fa6';
 import { TbWorldWww } from 'react-icons/tb';
 import './footer.css';
 
@@ -9,24 +9,38 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <Container size="4">
-        <Box py="4" mt="auto">
-          <p>
+        <div className="footer__box">
+          <span className="footer__text">
             Created by{' '}
-            <NextLink href="https://elizabet.dev/" target="_blank">
-              Elizabet.dev
+            <NextLink href="https://elizabet.dev/" target="_blank" className="footer__text-link">
+              elizabet.dev
             </NextLink>{' '}
-            |{' '}
-            <NextLink href="https://x.com/elizabet_dev" target="_blank">
-              <FaXTwitter />
-            </NextLink>{' '}
-            <NextLink href="https://www.instagram.com/elizabetdev" target="_blank">
-              <FaInstagram />
-            </NextLink>{' '}
-            <NextLink href="https://elizabet.dev/" target="_blank">
-              <TbWorldWww />
-            </NextLink>
-          </p>
-        </Box>
+          </span>
+          <div className="footer__separator"></div>
+          <ul className="footer__icon-list">
+            <li>
+              <NextLink href="https://x.com/elizabet_dev" target="_blank" className="footer__icon-link">
+                <FaXTwitter />
+              </NextLink>
+            </li>
+            <li>
+              <NextLink href="https://bsky.app/profile/elizabet.dev" target="_blank" className="footer__icon-link">
+                <FaBluesky />
+              </NextLink>
+            </li>
+            <li>
+              <NextLink href="https://www.instagram.com/elizabetdev" target="_blank" className="footer__icon-link">
+                <FaInstagram />
+              </NextLink>
+            </li>
+            <li>
+              {' '}
+              <NextLink href="https://elizabet.dev/" target="_blank" className="footer__icon-link">
+                <TbWorldWww />
+              </NextLink>
+            </li>
+          </ul>
+        </div>
       </Container>
     </footer>
   );
